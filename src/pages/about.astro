@@ -1,5 +1,6 @@
 ---
 import Navigation from '../components/Navigation.astro'
+import Footer from '../components/Footer.astro'
 import '../styles/global.sass'
 
 const pageTitle = 'About Me'
@@ -74,5 +75,6 @@ const textCase = 'upperCase'
 {finished && <p>I finished this tutorial!</p>}
 
 {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
+<Footer />
 </body>
 </html>
